@@ -5,4 +5,5 @@ package com.example.pc.mytracking.util
  */
 object RequestCode {
     const val PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 22
+    const val GOOGLE_SIGIN_REQUEST = 1
 }

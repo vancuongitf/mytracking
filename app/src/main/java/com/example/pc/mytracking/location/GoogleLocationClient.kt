@@ -8,7 +8,7 @@ import com.google.android.gms.location.LocationServices
  *
  * Created by CaoVanCuong on 10/31/2017.
  */
-class MyGoogleApiClient private constructor() {
+class GoogleLocationClient private constructor() {
 
     companion object {
         private var sInstance: GoogleApiClient? = null

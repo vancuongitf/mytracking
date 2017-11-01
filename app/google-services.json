@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159885509208",
+    "project_id": "mytracking-1509462449681"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159885509208:android:a4413baaa5b7ffb2",
+        "android_client_info": {
+          "package_name": "com.example.pc.mytracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159885509208-qjniio2b0ekj4i3hs7gte2s0gh2vl7sm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "159885509208-u1fa4teg2qnio1d4t2bl26lrs9v22trj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pc.mytracking",
+            "certificate_hash": "b426d50a7256da437c6ad034fcb79b1a42a28038"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApt_deBF9MCkuF8mMVMqfoq7KTi_y0ihM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

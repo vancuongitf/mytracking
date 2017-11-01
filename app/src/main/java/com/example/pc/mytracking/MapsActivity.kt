@@ -8,7 +8,7 @@ import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import com.example.pc.mytracking.location.GoogleApiConnectionCallback
-import com.example.pc.mytracking.location.MyGoogleApiClient
+import com.example.pc.mytracking.location.GoogleLocationClient
 import com.example.pc.mytracking.util.RequestCode
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.api.GoogleApiClient
@@ -32,7 +32,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        mGoogleMapApi = MyGoogleApiClient.getInstance(this, object : GoogleApiConnectionCallback {
+        mGoogleMapApi = GoogleLocationClient.getInstance(this, object : GoogleApiConnectionCallback {
             override fun onConnectionFailed(p0: ConnectionResult) {
                 Log.i("tag11", "fail")
             }
